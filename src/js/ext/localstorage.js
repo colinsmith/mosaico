@@ -4,7 +4,6 @@ var console = require("console");
 var ko = require("knockout");
 var $ = require("jquery");
 var JSZip = require("jszip");
-var FileSaver = require('filesaver');
 
 var lsLoader = function(hash_key, emailProcessorBackend) {
   var mdStr = global.localStorage.getItem("metadata-" + hash_key);
