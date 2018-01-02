@@ -177,7 +177,7 @@ module.exports = function(grunt) {
           'themes': 'tinymce/themes',
           'skins': 'tinymce/skins',
           'plugins': 'tinymce/plugins',
-          'notoregular': 'webfont-notosans/regular',
+          'notoregular': 'webfont-notosans/regular'
         }
       },
       fontawesome: {
